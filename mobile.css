@@ -1,7 +1,6 @@
-
 @font-face {
-  src: url(/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
-  font-family: lexend_Deca;
+  src: url(/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf);
+  font-family: Big Shoulders Display;
 }
 body {
   background-color: red;
@@ -15,7 +14,6 @@ body {
   background-color: hsl(0, 0%, 95%);
 }
 
-}
 .main {
   display: flex;
   margin: auto;
@@ -25,9 +23,11 @@ body {
   border-top: 20px;
   background-color: hsl(0%, 0%, 95%);
 }
+
 p {
   padding-left: 10%;
   font-size: 15px;
+  font-family: Big Shoulders Display;
   font-weight: 400;
   text-align: justify;
   text-align-last: left;
@@ -37,11 +37,10 @@ p {
 
 .item-a {
   background-color: hsl(39, 100%, 50%);
-  font-family: lexend_Deca;
-  width: 15rem;
+  font-family: Big Shoulders Display;
+  width: 50rem;
   padding-left: 2em;
   text-align: center;
-  justify-content: center;
   padding-top: 100px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -49,18 +48,17 @@ p {
 
 .item-b {
   background-color: hsl(184, 100%, 22%);
-  font-family: lexend_Deca;
-  width: 15rem;
+  font-family: Big Shoulders Display;
+  width: 50rem;
   padding-left: 2em;
   text-align: center;
-  justify-content: center;
   padding-top: 100px;
 }
 
 .item-c {
   background-color: hsl(179, 100%, 13%);
-  font-family: lexend_Deca;
-  width: 15rem;
+  font-family: Big Shoulders Display;
+  width: 50rem;
   padding-left: 2em;
   text-align: center;
   padding-top: 100px;
@@ -68,21 +66,25 @@ p {
   border-bottom-right-radius: 10px;
 }
 #sedans {
-  margin-top: -45rem;
+  /* margin-bottom: 60px; */
+  margin-right: 94px;
+  margin-top: -25rem;
   margin-bottom: 5px;
-  margin-right: 200px;
+  margin-right: 130px;
 }
 #suv {
+  /* margin-bottom: 60px; */
   margin-right: 94px;
   margin-top: -25rem;
   margin-bottom: 5px;
-  margin-right: 200px;
+  margin-right: 130px;
 }
 #luxury {
+  /* margin-bottom: 60px; */
   margin-right: 94px;
   margin-top: -25rem;
   margin-bottom: 5px;
-  margin-right: 200px;
+  margin-right: 130px;
 }
 h2 {
   color: hsl(0, 0%, 95%);
@@ -98,8 +100,8 @@ h2 {
   border-color: transparent;
   height: 40px;
   width: 140px;
-  margin-top: 40px;
-  margin-right: 130px;
+  margin-top: 50px;
+  margin-right: 55px;
 }
 #but2 {
   background-color: hsl(0, 0%, 95%);
@@ -108,8 +110,8 @@ h2 {
   border-color: transparent;
   height: 40px;
   width: 140px;
-  margin-top: 40px;
-  margin-right: 130px;
+  margin-top: 50px;
+  margin-right: 55px;
 }
 #but3 {
   background-color: hsl(0, 0%, 95%);
@@ -118,6 +120,6 @@ h2 {
   border-color: transparent;
   height: 40px;
   width: 140px;
-  margin-top: 40px;
-  margin-right: 130px;
+  margin-top: 50px;
+  margin-right: 55px;
 }
